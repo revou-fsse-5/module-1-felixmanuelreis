@@ -1,4 +1,4 @@
-# Grisenflor Plastic Waste Management Center
+# Grisenfor Plastic Waste Management Center
 =========================
 
 This repository contains the HTML files for my future business in plastic waste management.
