@@ -1,0 +1,110 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #006d77;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+    header h1 {
+        order: 2;
+        flex-grow: 1;
+    }
+
+nav {
+    background-color: #006d77;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+main {
+    padding: 20px;
+}
+
+    main section {
+        margin-bottom: 30px;
+    }
+
+    main h2 {
+        color: #006d77;
+        margin-bottom: 10px;
+    }
+
+    main p, main li {
+        line-height: 1.6;
+    }
+
+    main form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+        main form label {
+            display: block;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        main form input[type="text"], main form textarea {
+            width: 100%;
+            padding: 5px;
+        }
+
+        main form fieldset {
+            order: 3;
+            width: 100%;
+        }
+
+            main form fieldset legend {
+                padding: 5px;
+            }
+
+        main form input[type="submit"] {
+            order: 4;
+            align-self: flex-end;
+            padding: 5px 20px;
+        }
+
+footer {
+    background-color: #006d77;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+        nav ul li {
+            text-align: center;
+        }
+}
+
+</style >
